@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Separator } from '../shared/Separator';
 
 export class NavBar extends React.Component {
+
   render () {
     return (
       <div>

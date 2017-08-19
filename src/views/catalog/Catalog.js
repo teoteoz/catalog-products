@@ -26,8 +26,11 @@ export class Catalog extends React.Component {
           )
           */
           products.map(
+
             ({id, label}) =>
+            <li>
               <Link to={'/product/' + id}>{label}</Link>
+            </li>
           )
         }
       </div>
